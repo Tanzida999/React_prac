@@ -3,8 +3,8 @@ function Todo1(){
   let todoDate ='4/10/2024';
 
     return (
-    <div className="container text-center">
-    <div class="row">
+    <div className="">
+    <div class="row kg-row">
       <div class="col-6">
         <p>{todoName}</p>
       </div>
@@ -12,7 +12,7 @@ function Todo1(){
       <p>{todoDate}</p>
       </div>
       <div class="col-2">
-      <button type="button" class="btn btn-danger">Delete</button>
+      <button type="button" class="btn btn-danger kg-button">Delete</button>
   
   
       </div>
